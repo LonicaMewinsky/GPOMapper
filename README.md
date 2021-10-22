@@ -8,4 +8,4 @@ locally and create a scheduled task. Task will run at logon or networking change
 
 Writes content to "C:\ProgramData\GPOMapper"
 
-For detection: HKLM:\SOFTWARE\GPOMapper\[string]Version=2.0
+For detection: HKLM:\SOFTWARE\GPOMapper\Version=2.0
