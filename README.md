@@ -1,2 +1,2 @@
 # GPOMapper
-Script that processes onprem GPOs to map drives
+No-good terrible powershell script that processes GPOs for AD-Sync'd users' mapped drives.
