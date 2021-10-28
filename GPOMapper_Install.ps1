@@ -4,7 +4,7 @@ $installFolder = "C:\ProgramData\GPOMapper"
 
 If ($Mode -eq "Install"){
     #add relevant windows capabilities..
-    Add-WindowsCapability -Online -Name Rsat.GroupPolicy.Management.Tools~~~~~0.0.1.0 -ErrorAction Stop
+    Add-WindowsCapability -Online -Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0 -ErrorAction Stop
     Add-WindowsCapability -Online -Name Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0 -ErrorAction Stop
 
     #cleanup existing task if found
